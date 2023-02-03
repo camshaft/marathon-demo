@@ -25,6 +25,9 @@ jobs:
         with:
           crate: marathon
 
+      - name: Setup Graphviz
+        uses: ts-graphviz/setup-graphviz@v1
+
       - name: Build Pages
         run: marathon build
 
