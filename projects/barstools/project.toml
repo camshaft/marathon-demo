@@ -1,0 +1,9 @@
+title = "Barstools"
+description = """
+This project aims to build and finish barstools for my kitchen.
+"""
+start-date = 2023-01-28
+
+contributors = [
+    "camshaft"
+]

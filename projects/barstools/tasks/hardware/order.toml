@@ -1,0 +1,16 @@
+title = "Order new hardware"
+description = """
+The old hardware isn't very good and needs to be replaced with new hardware.
+"""
+effort = "xs"
+start-date = 2023-01-28
+end-date = 2023-01-29
+owners = ["camshaft"]
+
+[[links]]
+title = "M6-1.0 x 55mm Socket Head Cap Screws"
+href = "https://a.co/d/fiW08Oi"
+
+[[links]]
+title = "M8 Wood Inserts Bolt Furniture Screw"
+href = "https://a.co/d/e5r3Nj0"

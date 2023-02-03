@@ -1,0 +1,7 @@
+title = "Sanding"
+id = "M2"
+dependencies = ["sanding"]
+
+description = """
+In the second milestone,
+"""

@@ -1,0 +1,6 @@
+title = "Sand Seats"
+effort = "s"
+start-date = 2023-01-28
+dependencies = [
+    "hardware/removal"
+]

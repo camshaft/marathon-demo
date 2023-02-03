@@ -1,0 +1,5 @@
+title = "Lacquer Seats"
+effort = "s"
+dependencies = [
+    "sanding/seats"
+]

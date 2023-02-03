@@ -1,0 +1,7 @@
+title = "Hardware removal"
+description = """
+All of the previous hardware isn't very good and needs to be removed from the chairs.
+"""
+effort = "xs"
+start-date = 2023-01-28
+end-date = 2023-01-29

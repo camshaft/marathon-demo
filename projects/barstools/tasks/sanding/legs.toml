@@ -1,0 +1,5 @@
+title = "Sand Legs"
+effort = "s"
+dependencies = [
+    "hardware/removal"
+]

@@ -1,0 +1,5 @@
+title = "Lacquer Backrests"
+effort = "s"
+dependencies = [
+    "sanding/backrest"
+]

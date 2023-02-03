@@ -1,0 +1,12 @@
+title = "Barstools are deconstructed"
+id = "M1"
+dependencies = [
+  "hardware/removal",
+  "hardware/order"
+]
+
+description = """
+In the first milestone, the barstools need to be deconstructed and have all of the hardware removed.
+This will make it easier to sand and finish. We also want to improve the build quality by using bolts
+instead.
+"""

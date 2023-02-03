@@ -1,0 +1,6 @@
+title = "Finishing"
+id = "M3"
+dependencies = ["lacquer"]
+description = """
+In the third milestone, we will spray the barstools with a lacquer. It is at this point they will be production-ready.
+"""
