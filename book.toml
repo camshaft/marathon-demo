@@ -1,0 +1,13 @@
+[book]
+title = "Marathon Demo"
+language = "en"
+multilingual = false
+src = "."
+
+[build]
+build-dir = "../release"
+[output.html]
+no-section-label = true
+[output.html.fold]
+enable = true
+level = 1
