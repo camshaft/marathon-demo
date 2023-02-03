@@ -4,10 +4,10 @@ on:
   push:
     branches: [main]
 
+  workflow_dispatch:
+
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
   group: "pages"
@@ -15,16 +15,10 @@ concurrency:
 
 jobs:
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
 
       - name: Install Marathon
         uses: camshaft/install@v1
@@ -34,11 +28,7 @@ jobs:
       - name: Build Pages
         run: marathon build
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: "target/release"
-
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: "target/release"
