@@ -3,5 +3,5 @@ id = "M2"
 dependencies = ["sanding"]
 
 description = """
-In the second milestone,
+In the second milestone, the chairs will be sanded and ready for finishing.
 """
